@@ -1,9 +1,10 @@
-export type MenuItem = {
-    id: number;
-    name: string;
-    price: number;
+export type Category = {
+    id:number
+    name:string
 }
 
-export type OrderItem = MenuItem & {
-    quantity: number;
+export type Activity = {
+    category: number
+    name: string
+    calories: number
 }
